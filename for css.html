@@ -1,26 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
 
-<style>
-p {
-    color: red;
-    width: 540px;
-    height: 100px;
-    background-color: black
-    
-}
+    <style>
+      div {
+        width: 500px;
+      }
 
-</style>
+      p {
+        color: red;
+        width: 940px;
+        height: 1000px;
+        background: black url(1jpg) center no-repeat;
+        margin: 100px;
 
+        /*background-image: url(1.jpg);
+    background-repeat: no-repeat; - можно добавить Х или Y, чтобы картинка не повторялась по вертикали или горизонтали
+    background-color: black;  - изменяет цвет фона 
+    background-position: center; */
+      }
 
-</head>
-<body>
+      .box1 {
+        /* margin-top: 20px;
+          margin-right: 20px;
+          margin-bottom: 20px;
+          margin-left: 20px; */
+
+        /*margin: 20px 20px 20px 20px; - Тоже самое, что и четыре строки свеху */
+        margin-bottom: 20px;
+        padding: 100px 100px 100px 100px;
+        border: 15px solid red;
+        /* border-top: 5px solid red; */
+        border-radius: 15px;
+        /*font-family: Arial;
+        font-size: 25px;
+        line-height: 30px;
+        font-weight: bold;
+        text-decoration: underline;
+        font-style: italic;*/
+        font: bold 20px/30px Arial, sans-serif; /* Тоже самое, что 6 строк вверху*/
+        text-align: center; /*можно задать left, right...*/
+        text-transform: uppercase; /*заглавными буквами*/
+        -webkit-box-shadow: 18px 18px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 18px 18px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 18px 18px 5px 0px rgba(0,0,0,0.75);
+      
+      }
+
+      li{
+          list-style: none;
+      }
+
+      .box1,
+      .box2 {
+        background: green;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div>
 
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates qui ad excepturi at tenetur. Consequatur ab, culpa dolores laudantium quas nisi fugiat, corrupti autem eveniet modi placeat, accusantium esse non.</p>
-</body>
+</div> -->
+<ul>
+    <li>jsdjkcj</li>
+    <li>ssdsdfsd</li>
+    <li>sdfsfdsfffs</li>
+    <li>fdsfs</li>
+    <li>sdffsdss</li>
+</ul>
+        <div class="box1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed omnis
+      quisquam quos neque, incidunt corrupti sit vitae earum laborum accusamus
+      odit aliquid distinctio eum tempore inventore modi delectus architecto
+      quibusdam.
+    </div>
+    <div class="box2">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, harum
+      alias numquam nesciunt eius, iure non at, nulla voluptatem consequuntur
+      saepe! Hic minima debitis sit a eius nisi illo aliquam!
+    </div>
+  </body>
 </html>
