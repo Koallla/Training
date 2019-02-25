@@ -1,0 +1,51 @@
+/* *{
+    margin: 0;
+    padding: 0
+} 
+Обнуление стилей*/
+
+/*Селектор элемента*/
+/* Обращение к тегу по имени элемента*/
+/*
+ul{ 
+    color: red;
+}
+
+p{
+    color: green
+}
+*/
+
+/*Селектор класса.
+
+Обращение по классу*/
+
+.menu{
+    color: blue;
+    background: black
+}
+
+.active{
+    text-decoration: underline
+}
+
+.menu__item{
+    font-weight: bold
+}
+
+/*Обращение по ID, может быть только один на странице*/
+#box{
+    color: yellow
+}
+
+/*Селектор атрибута*/
+/*
+.input-text{
+    color: red
+}
+*/
+/*или применить Селектор атрибута*/
+[type="text"]{
+    color: blue
+}
+
