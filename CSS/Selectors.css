@@ -20,9 +20,10 @@ p{
 
 Обращение по классу*/
 
+
 .menu{
     color: blue;
-    background: black
+    background: coral;
 }
 
 .active{
@@ -33,10 +34,10 @@ p{
     font-weight: bold
 }
 
-/*Обращение по ID, может быть только один на странице*/
+/*Обращение по ID, может быть только один на странице
 #box{
-    color: yellow
-}
+    color: red
+}*/
 
 /*Селектор атрибута*/
 /*
@@ -46,6 +47,55 @@ p{
 */
 /*или применить Селектор атрибута*/
 [type="text"]{
-    color: blue
+    color: green;
+    font-size: 20px;
 }
 
+/*Одно и то же обращение, но по разному*/
+a{
+    color: red;
+    text-decoration: none;
+}
+
+.main-link{
+    font-size: 60px;
+}
+
+[href="https://google.com"]{
+    font-family: Arial;
+}
+   
+p{
+    color: red;
+}
+
+/*Селектор потомка*/
+div p{
+    color: green;
+}
+
+/*Или*/
+
+#box p{
+    font-size: 30px;
+}
+
+.menu a{
+    color: black;
+}
+
+/*Селектор для вложенного элемента*/
+.menu .menu__item>a{
+    color: red;
+    text-decoration: none;
+}
+
+/*Сестринский селектор, применяется для тега ul идущего после а*/
+.menu .menu__item>a + ul{
+    background: violet;
+}
+
+div+p{ /*Находит все теги "р", которые идут сразу после тега "div"*/  
+    background-color: black;
+    color: white;
+}
