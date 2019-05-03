@@ -1,0 +1,24 @@
+
+.navigation-list {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+ 
+.navigation-list li {
+   
+    width: 200px;
+    font-size: 25px;
+    background-color: blue;
+    display: inline-block;
+    text-align: center;
+    box-sizing: content-box;
+    
+    
+}
+
+.navigation-list li a {
+    color: aliceblue;
+    text-decoration: none;
+}
