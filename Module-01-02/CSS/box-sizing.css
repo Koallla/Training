@@ -1,0 +1,73 @@
+/* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} */
+
+.box {
+    /* font-size: 0; */
+    }
+    
+
+
+
+    p {
+        text-align: center;
+    }
+    
+    
+
+.box-1 {
+    box-sizing: content-box;
+    display: inline-block;
+    width: 30%;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+    border: 10px solid #212121;
+    background-color: #009688;
+    font-size: 15px;
+    color: #000;
+    /* text-align: center; */
+    vertical-align: middle;
+}
+
+.box-2 {
+    box-sizing: content-box;
+    display: inline-block;
+    /* width: calc(30% - 44px); */ /*Если нужно подогнать в ряд*/
+    width: 30%;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+    border: 10px solid #212121;
+    background-color: #009688;
+    font-size: 15px;
+    color: #000;
+    /* text-align: center;*/
+    vertical-align: middle;
+}
+
+.box-3 {
+    box-sizing: content-box;
+    display: inline-block;
+    width: 30%;
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+    border: 10px solid #212121;
+    background-color: #009688;
+    font-size: 15px;
+    color: #000;
+    /* text-align: center;*/
+    vertical-align: middle;
+}
+
+body {
+    min-height: 100vh; 
+    background-image: url(../img/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; замостить
+    /* background-attachment: fixed; для скрола*/
+}
